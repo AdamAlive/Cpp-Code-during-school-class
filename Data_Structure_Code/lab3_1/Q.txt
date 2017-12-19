@@ -1,0 +1,7 @@
+1. Create the following functions for a Linked List:  insert:  insert n, where n is the number of elements;   append n numbers into the list  show:  show the list in normal order  rshow:  show the list in reserve order  delete:  delete all the node if its value is equal to a   END:  terminate 
+  NULL will be displayed for show and rshow when the list is empty 
+ 
+ 
+ 
+Example Input insert 5 1 2 3 4 5 show insert 2 1 2 delete 1 show rshow END 
+ Output 1 2 3 4 5 2 3 4 5 2 2 5 4 3 2 

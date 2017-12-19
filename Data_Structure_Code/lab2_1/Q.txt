@@ -1,0 +1,1 @@
+1.  Implement the Linked List which stores the integer value in each node with basic functionalities:  a) Insert  b) Remove  c) SetPos  d) Print

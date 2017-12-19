@@ -1,0 +1,3 @@
+3. Given the N student records (student name, ID and scores of three subjects), sort the records in descending order (from high to low) using the average scores. If the average scores are the same, the student with smaller ID should be displayed first.    The first line of the input file contains an integer t (1<= t<=10), the number of students. Each of the next rows contains the record of a student: Name, Student ID (six digits), scores of three subjects. Each data is separated by a ¡°space¡±.       Example: Input: 3 Lily 000001 80 70 90 Job 000002 80 90 100 David 000003 100 70 100 
+ 
+Output: Job 000002 80 90 100 David 000003 100 70 100 Lily 000001 80 70 90

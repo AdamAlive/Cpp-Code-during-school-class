@@ -1,0 +1,5 @@
+2. Put the M number of the identical eggs onto the N number of identical plates. By assuming that some plates can be empty, output the total number of different solutions. For example, M=8 and N=3, the solution of 6-1-1 (which means six eggs on the 1st plate, one egg on the 2nd and 3rd plates) is equal to 1-6-1. The first line of the input file contains an integer t (1 ¡Ü t ¡Ü 50), which is the number of test cases. Each test case consists of two numbers, M and N.  
+ 
+Example: Input:  1 8 6 
+ 
+Output 20 

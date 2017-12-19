@@ -1,0 +1,20 @@
+3. Write a problem to trace the customers and the status of the tellers in a bank. The first line of the input stores the number of tellers in the bank. Next lines contain the information of customers as follows: 
+ ArrivalTime Name OccupiedTime 
+  When a customer arrives, he/she will come to the first teller. If the first teller is busy, he/she will go to next teller and so on. If all tellers are busy, the customer will line up in the waiting queue.  
+ 
+ The program should output the status of each teller and waiting queue for each second until all customers have been served.  
+ 
+Be noted that you can assume the information in the input is in order. The last line of input containing the number -1 signals the end of the input. 
+ 
+Example: Input:
+ 3 2 Tom 5 2 Mary 2 4 Ann 2 5 Peter 1 5 Annie 1 5 John 2 5 Rebecca 1 6 May 2 7 Jessica 1 7 Kelvin 1 -1 
+ Output: 1: Teller1: NULL Teller2: NULL Teller3: NULL Waiting: NULL 
+ 2: Teller1: Tom Teller2: Mary Teller3: NULL Waiting: NULL 
+ 3: Teller1: Tom Teller2: Mary Teller3: NULL Waiting: NULL 
+ 4: 
+Data Structure ¨C Laboratory 3 4 
+Teller1: Tom Teller2: Ann Teller3: NULL Waiting: NULL 
+ 5: Teller1: Tom Teller2: Ann Teller3: Peter Waiting: Annie John Rebecca 
+ 6: Teller1: Tom Teller2: Annie Teller3: John Waiting: Rebecca May 
+ 7: Teller1: Rebecca Teller2: May Teller3: John Waiting: Jessica Kelvin 
+ 8: Teller1: Jessica Teller2: May Teller3: Kelvin Waiting: NULL 

@@ -1,0 +1,1 @@
+2.  Implement the Linked Stack which stores the integer value in each node with basic functionalities:  a) Pop  b) Push

@@ -1,0 +1,5 @@
+1. Given m and n, draw the rectangle with the size m x n. 
+ 
+Example: Input:  5 4 
+ 
+Output:     +---+    |aaa|    |aaa|    +---+ 
